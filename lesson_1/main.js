@@ -1,5 +1,5 @@
 // khai bao bien
-var fullName = "Nguyen Duc Viet";
+var hoVaTen = "Nguyen Duc Viet";
 var age = 20;
 // ham alert(): goi ham thong bao
 // alert(fullName);
@@ -40,8 +40,35 @@ var age = 20;
   console.log("day la 1 log " + Math.random);
  }, 1000);
 */
-var a = 4;
-var b = 3;
-if (a > b && b < 0) {
-  console.log("Dung");
-} else console.log("NguyenDucViet");
+/**
+ Toán tử chuỗi
+ */
+var name = "Viet";
+name += "Dang";
+
+console.log(name);
+/**
+ * Boolean : log ra true hoac false
+ 
+ */
+var a = 1;
+var b = 2;
+var isSuccess = a > b;
+console.log(isSuccess);
+/**
+ * if-else
+ * có 6 giá trị khi java chuyển kiểu dữ liệu dang dạng boolean:
+ 1. 0
+ 2. false/true
+ 3. '' hoặc ""
+ 4. undefined
+ 5. NaN
+ 6. null
+ ngoài 6 giá trị này tất cả convert sang boolean đều là true
+ */
+
+if (isSuccess) {
+  console.log("DIEU KIEN DUNG");
+} else {
+  console.log("DIEU KIEN SAI");
+}
