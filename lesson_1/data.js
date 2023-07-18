@@ -28,7 +28,7 @@
 // var id = symbol("id"); // unique
 
 // Funcion
-// var myFunction = funcion() {
+// var myFunction = function() {
 //     alert("Hi, Xin chao cac ban");
 // }
 // myFunction();
